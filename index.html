@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clinometer — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65; max-width: 46rem; margin: 0 auto; padding: 2rem 1.25rem 4rem;
+    color: #1c1b1a; background: #fffaf6;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #ece1d4; background: #18120b; } }
+  h1 { font-size: 1.9rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.25rem; margin-top: 2.25rem; border-bottom: 1px solid rgba(128,128,128,.3); padding-bottom: .3rem; }
+  .meta { opacity: .7; font-size: .92rem; margin-bottom: 2rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
+  th, td { border: 1px solid rgba(128,128,128,.35); padding: .5rem .6rem; text-align: left; vertical-align: top; }
+  th { background: rgba(128,128,128,.12); }
+  code { background: rgba(128,128,128,.15); padding: .1rem .3rem; border-radius: 3px; font-size: .9em; }
+  ul { padding-left: 1.2rem; }
+  a { color: #b4551c; }
+  @media (prefers-color-scheme: dark) { a { color: #ffb951; } }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy — Clinometer</h1>
+<p class="meta">
+  Applies to the Android app <code>app.clinometer.anglemeter.bubblelevel</code>.<br>
+  Last updated: 5 August 2026.
+</p>
+
+<h2>The short version</h2>
+<p>
+  Clinometer does not have accounts, does not have a server, and does not upload your
+  measurements, your photos, or your location anywhere. Everything you measure stays on your
+  device. The only data that leaves your phone is what the advertising SDKs collect, and you
+  control that through the consent choice the app shows you.
+</p>
+
+<h2>What stays entirely on your device</h2>
+<table>
+  <tr><th>Data</th><th>Why it exists</th><th>Where it goes</th></tr>
+  <tr>
+    <td>Tilt sensor readings</td>
+    <td>Computing the angles the app displays</td>
+    <td>Never stored, never transmitted. Read live and discarded.</td>
+  </tr>
+  <tr>
+    <td>Camera image</td>
+    <td>A backdrop so you can see what you are aiming at</td>
+    <td>Displayed on screen only. Never uploaded. Included in a saved photo only when you tap save.</td>
+  </tr>
+  <tr>
+    <td>Saved measurements (photos)</td>
+    <td>Keeping a record of a measurement</td>
+    <td>Written to your device's own photo storage. We cannot see them.</td>
+  </tr>
+  <tr>
+    <td>Sensor calibration</td>
+    <td>Correcting your specific phone's sensor alignment</td>
+    <td>Stored locally and deliberately excluded from cloud backup, because a correction for one phone is wrong for another.</td>
+  </tr>
+  <tr>
+    <td>Settings</td>
+    <td>Units, angle format, theme and similar preferences</td>
+    <td>Stored locally. Included in Android's standard backup if you have that enabled.</td>
+  </tr>
+  <tr>
+    <td>Approximate location <em>(optional, off by default)</em></td>
+    <td>Writing coordinates onto a photo you save, if you switch that setting on</td>
+    <td>Read from the device's last known position and drawn onto the image. Never transmitted to us or anyone else.</td>
+  </tr>
+</table>
+
+<h2>Permissions, and why each one exists</h2>
+<ul>
+  <li><strong>Camera</strong> — optional. Only used to show a live backdrop behind the gauge.
+      Every angle, height and distance is computed from the tilt sensor, so the app works
+      fully with the camera switched off. Requested only when you turn the camera view on.</li>
+  <li><strong>Approximate location</strong> — optional and off by default. Requested only at
+      the moment you enable coordinate stamping in Settings. Only the last known position is
+      read; the app never tracks you and never runs location in the background.</li>
+  <li><strong>Storage (Android 9 and older only)</strong> — needed to save a measurement
+      photo. On Android 10 and newer no storage permission is used at all.</li>
+  <li><strong>Internet, network state, advertising ID</strong> — used by the advertising
+      SDKs described below.</li>
+  <li><strong>Vibrate</strong> — the small buzz when a reading locks.</li>
+</ul>
+<p>
+  No permission is required to use the app. Declining any of them leaves the measuring
+  features working.
+</p>
+
+<h2>Advertising</h2>
+<p>
+  Clinometer is supported by ads. Ads are served by <strong>Google AdMob</strong>, with
+  <strong>AppLovin</strong> and <strong>Meta Audience Network</strong> as mediation
+  partners. These are separate companies with their own privacy policies, and they —
+  not us — collect and process the data used to select and measure ads. That typically
+  includes your device's advertising identifier, device and network information, and
+  coarse location derived from your IP address.
+</p>
+<ul>
+  <li><a href="https://policies.google.com/technologies/partner-sites">Google AdMob / Google Privacy &amp; Terms</a></li>
+  <li><a href="https://www.applovin.com/privacy/">AppLovin Privacy Policy</a></li>
+  <li><a href="https://www.facebook.com/privacy/policy/">Meta Privacy Policy</a></li>
+</ul>
+<p>
+  Where the law requires it, the app shows you a consent form the first time it runs, using
+  Google's User Messaging Platform. Your choice is recorded and honoured. You can change it
+  at any time from <strong>Settings → Ad privacy choices</strong>. You can also reset or
+  delete your advertising ID from Android's own settings, which limits ad personalisation
+  across every app on the device.
+</p>
+
+<h2>What we do not do</h2>
+<ul>
+  <li>No accounts, sign-in, email collection or user profiles.</li>
+  <li>No analytics or crash-reporting SDK.</li>
+  <li>No third-party tracking, attribution or data-broker SDKs.</li>
+  <li>No push notifications and no notification permission.</li>
+  <li>No selling or sharing of personal information. We do not receive any to sell.</li>
+</ul>
+
+<h2>Install attribution</h2>
+<p>
+  The Google Play version reads the Play Install Referrer once, so we can tell which listing
+  or campaign an install came from. It is stored on the device and is not transmitted. The
+  Samsung Galaxy Store version does not include this at all.
+</p>
+
+<h2>Children</h2>
+<p>
+  Clinometer is a general-purpose measuring tool. It is not directed at children, and we do
+  not knowingly collect personal information from children. If you believe a child has
+  provided us information, contact us and we will address it — though note that the app
+  provides no way to submit personal information in the first place.
+</p>
+
+<h2>Your rights</h2>
+<p>
+  Because the app holds no personal data on any server, there is nothing for us to export or
+  delete on request. To remove everything the app has stored, uninstall it; to delete saved
+  measurement photos, delete them from within the app or from your gallery. For rights
+  relating to advertising data, contact the relevant advertising partner using the links
+  above, or use Android's advertising ID controls.
+</p>
+
+<h2>Changes to this policy</h2>
+<p>
+  If this policy changes, the revised version will be posted at this address with an updated
+  date. Material changes affecting how data is handled will also be noted in the app's
+  release notes.
+</p>
+
+<h2>Contact</h2>
+<p>
+  Questions about this policy: <a href="mailto:zoopetzoopet70@gmail.com">zoopetzoopet70@gmail.com</a>
+</p>
+
+</body>
+</html>
