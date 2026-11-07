@@ -29,7 +29,7 @@
 <h1>Privacy Policy — Clinometer</h1>
 <p class="meta">
   Applies to the Android app <code>app.clinometer.anglemeter.bubblelevel</code>.<br>
-  Last updated: 5 August 2026.
+  Last updated: 7 November 2026.
 </p>
 
 <h2>The short version</h2>
@@ -96,12 +96,23 @@
 
 <h2>Advertising</h2>
 <p>
-  Clinometer is supported by ads. Ads are served by <strong>Google AdMob</strong>, with
-  <strong>AppLovin</strong> and <strong>Meta Audience Network</strong> as mediation
-  partners. These are separate companies with their own privacy policies, and they —
-  not us — collect and process the data used to select and measure ads. That typically
-  includes your device's advertising identifier, device and network information, and
-  coarse location derived from your IP address.
+  Clinometer is supported by ads served through <strong>Google AdMob</strong>.
+  The <strong>Samsung Galaxy Store build 1.0.4 (version code 5)</strong> includes
+  Google's advertising SDK and does not include the AppLovin or Meta Audience Network
+  mediation SDKs. The Google Play build of this version also includes the
+  <strong>Meta Audience Network</strong> mediation SDK, but not AppLovin.
+</p>
+<p>
+  Older installed versions may have a different mediation configuration. The AppLovin
+  and Meta privacy links below are retained for versions that include those SDKs.
+  The consent message lists the ad technology partners that may receive data through
+  Google ad delivery; these can include partners without a separate SDK in the app.
+</p>
+<p>
+  Advertising partners collect and process data used to select and measure ads. That
+  typically includes your device's advertising identifier, device and network information,
+  and coarse location derived from your IP address. The optional coordinate stamp described
+  above is a separate local feature; the app does not send those coordinates in ad requests.
 </p>
 <ul>
   <li><a href="https://policies.google.com/technologies/partner-sites">Google AdMob / Google Privacy &amp; Terms</a></li>
@@ -120,9 +131,10 @@
 <ul>
   <li>No accounts, sign-in, email collection or user profiles.</li>
   <li>No analytics or crash-reporting SDK.</li>
-  <li>No third-party tracking, attribution or data-broker SDKs.</li>
+  <li>No separate tracking or data-broker SDK beyond the advertising SDKs described above.
+      The Google Play build includes the Install Referrer library described below.</li>
   <li>No push notifications and no notification permission.</li>
-  <li>No selling or sharing of personal information. We do not receive any to sell.</li>
+  <li>We do not sell personal information. Advertising partners process the information described in the Advertising section.</li>
 </ul>
 
 <h2>Install attribution</h2>
