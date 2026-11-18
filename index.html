@@ -29,7 +29,7 @@
 <h1>Privacy Policy — Clinometer</h1>
 <p class="meta">
   Applies to the Android app <code>app.clinometer.anglemeter.bubblelevel</code>.<br>
-  Last updated: 7 November 2026.
+  Last updated: 18 November 2026.
 </p>
 
 <h2>The short version</h2>
@@ -96,35 +96,53 @@
 
 <h2>Advertising</h2>
 <p>
-  Clinometer is supported by ads served through <strong>Google AdMob</strong>.
-  The <strong>Samsung Galaxy Store build 1.0.4 (version code 5)</strong> includes
-  Google's advertising SDK and does not include the AppLovin or Meta Audience Network
-  mediation SDKs. The Google Play build of this version also includes the
-  <strong>Meta Audience Network</strong> mediation SDK, but not AppLovin.
-</p>
-<p>
-  Older installed versions may have a different mediation configuration. The AppLovin
-  and Meta privacy links below are retained for versions that include those SDKs.
+  Clinometer is supported by ads served through <strong>Google AdMob</strong>. Since version
+  1.0.8 (version code 9), AdMob may also fill some ads through <strong>Unity Ads</strong>
+  (Unity Technologies) by mediation, in both the Google Play and the Samsung Galaxy Store
+  builds. The Google Play build also includes the <strong>Meta Audience Network</strong>
+  mediation SDK. Neither build includes AppLovin. Older installed versions may have a
+  different mediation configuration; the AppLovin and Meta links below are kept for them.
   The consent message lists the ad technology partners that may receive data through
   Google ad delivery; these can include partners without a separate SDK in the app.
 </p>
 <p>
-  Advertising partners collect and process data used to select and measure ads. That
-  typically includes your device's advertising identifier, device and network information,
-  and coarse location derived from your IP address. The optional coordinate stamp described
-  above is a separate local feature; the app does not send those coordinates in ad requests.
+  To show and measure ads, keep the ad service working and prevent fraud, these providers
+  may collect and share:
+</p>
+<ul>
+  <li>device identifiers such as the Android advertising ID, and a user or installation ID;</li>
+  <li>your IP address, which can be used to estimate your approximate location;</li>
+  <li>device and app information (model, language, connection type, app version) and diagnostic data;</li>
+  <li>your interactions with ads;</li>
+  <li>in-app purchase activity;</li>
+  <li>and, for Unity Ads, app usage times.</li>
+</ul>
+<p>
+  The app does not give these providers your measurements, camera images, saved photos or
+  the optional coordinate stamp described above; the app does not send those coordinates
+  in ad requests.
 </p>
 <ul>
   <li><a href="https://policies.google.com/technologies/partner-sites">Google AdMob / Google Privacy &amp; Terms</a></li>
-  <li><a href="https://www.applovin.com/privacy/">AppLovin Privacy Policy</a></li>
+  <li><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Game Player and App User Privacy Policy</a></li>
   <li><a href="https://www.facebook.com/privacy/policy/">Meta Privacy Policy</a></li>
+  <li><a href="https://www.applovin.com/privacy/">AppLovin Privacy Policy</a> (older versions only)</li>
 </ul>
 <p>
   Where the law requires it, the app shows you a consent form the first time it runs, using
-  Google's User Messaging Platform. Your choice is recorded and honoured. You can change it
+  Google's User Messaging Platform. Your choice is recorded and honoured. That choice is also passed to Unity Ads. You can change it
   at any time from <strong>Settings → Ad privacy choices</strong>. You can also reset or
   delete your advertising ID from Android's own settings, which limits ad personalisation
-  across every app on the device.
+  across every app on the device. During a Unity ad you can open Unity's Data Privacy icon
+  to opt out, or to request access to or deletion of data Unity holds.
+</p>
+
+<h2>In-app purchases</h2>
+<p>
+  The optional <strong>Remove Ads</strong> purchase is handled entirely by Google Play
+  Billing (Google Play build) or Samsung In-App Purchase (Galaxy Store build). We never see
+  your payment details. The app keeps only a local record that the purchase is active.
+  Advertising partners may still receive in-app purchase activity, as described above.
 </p>
 
 <h2>What we do not do</h2>
@@ -141,7 +159,7 @@
 <p>
   The Google Play version reads the Play Install Referrer once, so we can tell which listing
   or campaign an install came from. It is stored on the device and is not transmitted. The
-  Samsung Galaxy Store version does not include this at all.
+  Samsung Galaxy Store version does not read the install referrer.
 </p>
 
 <h2>Children</h2>
@@ -158,7 +176,7 @@
   delete on request. To remove everything the app has stored, uninstall it; to delete saved
   measurement photos, delete them from within the app or from your gallery. For rights
   relating to advertising data, contact the relevant advertising partner using the links
-  above, or use Android's advertising ID controls.
+  above, including Unity's in-ad Data Privacy icon, or use Android's advertising ID controls.
 </p>
 
 <h2>Changes to this policy</h2>
